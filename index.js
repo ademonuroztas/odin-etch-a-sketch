@@ -33,10 +33,6 @@ function updateGrid(gridSize) {
     drawGrid(gridSize);
   }
 
-
-
-
-
 function draw(e) {
   if (e.type === 'mouseover' && !mouseDown) return;
   e.target.style.backgroundColor = 'black';
